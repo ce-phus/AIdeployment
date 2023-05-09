@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add some padding to the header and footer */
+  header, footer {
+    padding: 1rem;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Add some spacing to the main content area */
+  main {
+    padding: 1rem;
+  }
+  
+  /* Apply some Bootstrap classes to form elements */
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form input[type="file"] {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0062cc;
+    cursor: pointer;
+  }
+  
+  /* Apply some Bootstrap classes to text elements */
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Apply some Bootstrap classes to table elements */
+  table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    text-align: inherit;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
