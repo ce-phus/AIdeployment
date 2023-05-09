@@ -1,1 +1,1 @@
-## Predictive maintainance of Turbo engines using LSTM web deployment using django framework
+## Predictive maintainance of Turbo engines web deployment(django framework) using django framework
